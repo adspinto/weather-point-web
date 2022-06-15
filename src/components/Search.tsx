@@ -44,7 +44,7 @@ function Search(props: SearchProps) {
           onBlur={() => setFocused(false)}
           value={search}
           onChange={onChangeSearch}
-          placeholder={`Search`}
+          placeholder={`Search by city name`}
         ></input>
         <FontAwesomeIcon
           className="close-icon"

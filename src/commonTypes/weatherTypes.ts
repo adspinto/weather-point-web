@@ -11,4 +11,5 @@ export type WeatherResponse = {
   weather: Record<string, string>[];
   wind: Record<string, string>[];
   current?: boolean;
+  formatted_address: string;
 };

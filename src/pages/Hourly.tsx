@@ -1,7 +1,8 @@
 import React from "react";
+import GenericPageLayout from "@components/GenericPageLayout";
 
 function Hourly() {
-  return <div>teste Hourly</div>;
+  return <GenericPageLayout>Hourly</GenericPageLayout>;
 }
 
 export default Hourly;

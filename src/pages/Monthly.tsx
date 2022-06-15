@@ -1,7 +1,8 @@
 import React from "react";
+import GenericPageLayout from "@components/GenericPageLayout";
 
 function Monthly() {
-  return <div>teste Monthly</div>;
+  return <GenericPageLayout>Monthly</GenericPageLayout>;
 }
 
 export default Monthly;

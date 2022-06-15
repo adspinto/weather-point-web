@@ -1,7 +1,8 @@
 import React from "react";
+import GenericPageLayout from "@components/GenericPageLayout";
 
 function Daily() {
-  return <div>teste Daily</div>;
+  return <GenericPageLayout>Daily</GenericPageLayout>;
 }
 
 export default Daily;
